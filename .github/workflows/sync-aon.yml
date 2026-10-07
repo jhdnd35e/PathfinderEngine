@@ -1,0 +1,60 @@
+name: Sync Archives of Nethys
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/sync_aon.py"
+      - "scripts/verify_source_data.py"
+      - "schema/**"
+      - "tests/**"
+      - ".github/workflows/sync-aon.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aon-source-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run ingestion tests
+        run: python -m unittest discover -s tests -p "test_*.py"
+
+      - name: Fetch and normalize Archives of Nethys index
+        run: python scripts/sync_aon.py --output data/source
+
+      - name: Verify generated snapshot
+        run: python scripts/verify_source_data.py data/source
+
+      - name: Commit refreshed data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/source
+          if git diff --cached --quiet; then
+            echo "No generated data changes."
+            exit 0
+          fi
+          git commit -m "data: refresh Archives of Nethys PF2e index"
+          git pull --rebase origin main
+          git push origin HEAD:main
