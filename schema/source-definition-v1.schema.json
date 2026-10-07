@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:pathfinderengine:schema:source-definition:1",
+  "title": "PathfinderEngine normalized Pathfinder 2e source definition v1",
+  "description": "Lossless Archives of Nethys source envelope. The fields object preserves the complete upstream _source record.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "ruleset",
+    "reference",
+    "source_id",
+    "aon_id",
+    "category",
+    "kind",
+    "name",
+    "search_key",
+    "aliases",
+    "edition",
+    "fields",
+    "relations",
+    "provenance",
+    "coverage"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "ruleset": {
+      "const": "pathfinder-2e"
+    },
+    "reference": {
+      "type": "string",
+      "pattern": "^aon:[a-z0-9][a-z0-9-]*:[a-z0-9][a-z0-9-]*$"
+    },
+    "source_id": {
+      "const": "archives-of-nethys"
+    },
+    "aon_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "search_key": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "edition": {
+      "enum": [
+        "legacy",
+        "remastered",
+        "single"
+      ]
+    },
+    "fields": {
+      "type": "object"
+    },
+    "relations": {
+      "type": "object",
+      "required": [
+        "legacy_ids",
+        "remaster_ids",
+        "replaces",
+        "superseded_by",
+        "unresolved_legacy_ids",
+        "unresolved_remaster_ids"
+      ],
+      "properties": {
+        "legacy_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "remaster_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "replaces": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^aon:"
+          },
+          "uniqueItems": true
+        },
+        "superseded_by": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^aon:"
+          },
+          "uniqueItems": true
+        },
+        "unresolved_legacy_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unresolved_remaster_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "retrieved_from",
+        "source_index",
+        "elasticsearch_hit_id",
+        "source_record_sha256",
+        "fetched_at",
+        "url",
+        "primary_source",
+        "release_date"
+      ],
+      "properties": {
+        "retrieved_from": {
+          "type": "string"
+        },
+        "source_index": {
+          "const": "aon"
+        },
+        "elasticsearch_hit_id": {
+          "type": "string"
+        },
+        "source_record_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "fetched_at": {
+          "type": "string"
+        },
+        "url": {
+          "type": ["string", "null"]
+        },
+        "primary_source": {},
+        "release_date": {}
+      },
+      "additionalProperties": false
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "normalization",
+        "mechanics_implementation",
+        "issues"
+      ],
+      "properties": {
+        "normalization": {
+          "const": "lossless_structural"
+        },
+        "mechanics_implementation": {
+          "const": "not_implemented"
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
