@@ -1,0 +1,19 @@
+# Local caches and transient sync state
+.cache/
+*.building
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local databases generated from the reference library
+*.db
+*.db-shm
+*.db-wal
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
