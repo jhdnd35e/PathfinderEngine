@@ -1,4 +1,5 @@
 name: Sync Archives of Nethys
+# Bootstrap touch: workflow already exists before this push.
 
 on:
   workflow_dispatch:
