@@ -1,0 +1,880 @@
+{
+  "categories": [
+    {
+      "category": "action",
+      "count": 4246,
+      "kind": "action"
+    },
+    {
+      "category": "ancestry",
+      "count": 97,
+      "kind": "ancestry"
+    },
+    {
+      "category": "animal-companion",
+      "count": 120,
+      "kind": "animal-companion"
+    },
+    {
+      "category": "animal-companion-advanced",
+      "count": 8,
+      "kind": "animal-companion-advanced"
+    },
+    {
+      "category": "animal-companion-specialization",
+      "count": 17,
+      "kind": "animal-companion-specialization"
+    },
+    {
+      "category": "animal-companion-unique",
+      "count": 2,
+      "kind": "animal-companion-unique"
+    },
+    {
+      "category": "apparition",
+      "count": 14,
+      "kind": "apparition"
+    },
+    {
+      "category": "arcane-school",
+      "count": 29,
+      "kind": "arcane-school"
+    },
+    {
+      "category": "arcane-thesis",
+      "count": 10,
+      "kind": "arcane-thesis"
+    },
+    {
+      "category": "archetype",
+      "count": 351,
+      "kind": "archetype"
+    },
+    {
+      "category": "armor",
+      "count": 75,
+      "kind": "armor"
+    },
+    {
+      "category": "armor-group",
+      "count": 7,
+      "kind": "armor-group"
+    },
+    {
+      "category": "article",
+      "count": 107,
+      "kind": "article"
+    },
+    {
+      "category": "background",
+      "count": 656,
+      "kind": "background"
+    },
+    {
+      "category": "bloodline",
+      "count": 28,
+      "kind": "bloodline"
+    },
+    {
+      "category": "campsite-meal",
+      "count": 27,
+      "kind": "campsite-meal"
+    },
+    {
+      "category": "category-page",
+      "count": 287,
+      "kind": "category-page"
+    },
+    {
+      "category": "cause",
+      "count": 13,
+      "kind": "cause"
+    },
+    {
+      "category": "class",
+      "count": 51,
+      "kind": "class"
+    },
+    {
+      "category": "class-feature",
+      "count": 1366,
+      "kind": "class-feature"
+    },
+    {
+      "category": "class-kit",
+      "count": 32,
+      "kind": "class-kit"
+    },
+    {
+      "category": "class-sample",
+      "count": 116,
+      "kind": "class-sample"
+    },
+    {
+      "category": "condition",
+      "count": 98,
+      "kind": "condition"
+    },
+    {
+      "category": "conscious-mind",
+      "count": 12,
+      "kind": "conscious-mind"
+    },
+    {
+      "category": "creature",
+      "count": 4942,
+      "kind": "creature"
+    },
+    {
+      "category": "creature-ability",
+      "count": 85,
+      "kind": "creature-ability"
+    },
+    {
+      "category": "creature-adjustment",
+      "count": 60,
+      "kind": "creature-adjustment"
+    },
+    {
+      "category": "creature-family",
+      "count": 649,
+      "kind": "creature-family"
+    },
+    {
+      "category": "creature-theme-template",
+      "count": 16,
+      "kind": "creature-theme-template"
+    },
+    {
+      "category": "cult-activity",
+      "count": 5,
+      "kind": "cult-activity"
+    },
+    {
+      "category": "curse",
+      "count": 92,
+      "kind": "curse"
+    },
+    {
+      "category": "deity",
+      "count": 722,
+      "kind": "deity"
+    },
+    {
+      "category": "deity-category",
+      "count": 40,
+      "kind": "deity-category"
+    },
+    {
+      "category": "deviant-ability-classification",
+      "count": 10,
+      "kind": "deviant-ability-classification"
+    },
+    {
+      "category": "disease",
+      "count": 44,
+      "kind": "disease"
+    },
+    {
+      "category": "doctrine",
+      "count": 5,
+      "kind": "doctrine"
+    },
+    {
+      "category": "domain",
+      "count": 124,
+      "kind": "domain"
+    },
+    {
+      "category": "draconic-exemplar",
+      "count": 44,
+      "kind": "draconic-exemplar"
+    },
+    {
+      "category": "druidic-order",
+      "count": 13,
+      "kind": "druidic-order"
+    },
+    {
+      "category": "eidolon",
+      "count": 26,
+      "kind": "eidolon"
+    },
+    {
+      "category": "element",
+      "count": 6,
+      "kind": "element"
+    },
+    {
+      "category": "epithet",
+      "count": 18,
+      "kind": "epithet"
+    },
+    {
+      "category": "equipment",
+      "count": 9144,
+      "kind": "equipment"
+    },
+    {
+      "category": "familiar-ability",
+      "count": 191,
+      "kind": "familiar-ability"
+    },
+    {
+      "category": "familiar-specific",
+      "count": 47,
+      "kind": "familiar-specific"
+    },
+    {
+      "category": "fatal-method",
+      "count": 2,
+      "kind": "fatal-method"
+    },
+    {
+      "category": "feat",
+      "count": 8947,
+      "kind": "feat"
+    },
+    {
+      "category": "follower",
+      "count": 6,
+      "kind": "follower"
+    },
+    {
+      "category": "grim-fascination",
+      "count": 4,
+      "kind": "grim-fascination"
+    },
+    {
+      "category": "hazard",
+      "count": 758,
+      "kind": "hazard"
+    },
+    {
+      "category": "hellknight-order",
+      "count": 16,
+      "kind": "hellknight-order"
+    },
+    {
+      "category": "heritage",
+      "count": 454,
+      "kind": "heritage"
+    },
+    {
+      "category": "hunters-edge",
+      "count": 7,
+      "kind": "hunters-edge"
+    },
+    {
+      "category": "hybrid-study",
+      "count": 15,
+      "kind": "hybrid-study"
+    },
+    {
+      "category": "ikon",
+      "count": 21,
+      "kind": "ikon"
+    },
+    {
+      "category": "implement",
+      "count": 20,
+      "kind": "implement"
+    },
+    {
+      "category": "innovation",
+      "count": 7,
+      "kind": "innovation"
+    },
+    {
+      "category": "instinct",
+      "count": 16,
+      "kind": "instinct"
+    },
+    {
+      "category": "item-bonus",
+      "count": 1373,
+      "kind": "item-bonus"
+    },
+    {
+      "category": "kingdom-event",
+      "count": 45,
+      "kind": "kingdom-event"
+    },
+    {
+      "category": "kingdom-structure",
+      "count": 76,
+      "kind": "kingdom-structure"
+    },
+    {
+      "category": "language",
+      "count": 155,
+      "kind": "language"
+    },
+    {
+      "category": "lesson",
+      "count": 31,
+      "kind": "lesson"
+    },
+    {
+      "category": "methodology",
+      "count": 9,
+      "kind": "methodology"
+    },
+    {
+      "category": "muse",
+      "count": 9,
+      "kind": "muse"
+    },
+    {
+      "category": "mystery",
+      "count": 22,
+      "kind": "mystery"
+    },
+    {
+      "category": "mythic-calling",
+      "count": 15,
+      "kind": "mythic-calling"
+    },
+    {
+      "category": "patron",
+      "count": 27,
+      "kind": "patron"
+    },
+    {
+      "category": "plane",
+      "count": 47,
+      "kind": "plane"
+    },
+    {
+      "category": "practice",
+      "count": 4,
+      "kind": "practice"
+    },
+    {
+      "category": "racket",
+      "count": 10,
+      "kind": "racket"
+    },
+    {
+      "category": "relic",
+      "count": 219,
+      "kind": "relic"
+    },
+    {
+      "category": "research-field",
+      "count": 8,
+      "kind": "research-field"
+    },
+    {
+      "category": "ritual",
+      "count": 232,
+      "kind": "ritual"
+    },
+    {
+      "category": "rules",
+      "count": 3659,
+      "kind": "rules"
+    },
+    {
+      "category": "runesmith-rune",
+      "count": 44,
+      "kind": "runesmith-rune"
+    },
+    {
+      "category": "set-relic",
+      "count": 14,
+      "kind": "set-relic"
+    },
+    {
+      "category": "shield",
+      "count": 32,
+      "kind": "shield"
+    },
+    {
+      "category": "sidebar",
+      "count": 719,
+      "kind": "sidebar"
+    },
+    {
+      "category": "siege-weapon",
+      "count": 84,
+      "kind": "siege-weapon"
+    },
+    {
+      "category": "skill",
+      "count": 50,
+      "kind": "skill"
+    },
+    {
+      "category": "skill-general-action",
+      "count": 25,
+      "kind": "skill-general-action"
+    },
+    {
+      "category": "source",
+      "count": 330,
+      "kind": "source"
+    },
+    {
+      "category": "spell",
+      "count": 2786,
+      "kind": "spell"
+    },
+    {
+      "category": "style",
+      "count": 11,
+      "kind": "style"
+    },
+    {
+      "category": "subconscious-mind",
+      "count": 8,
+      "kind": "subconscious-mind"
+    },
+    {
+      "category": "tactic",
+      "count": 37,
+      "kind": "tactic"
+    },
+    {
+      "category": "tenet",
+      "count": 2,
+      "kind": "tenet"
+    },
+    {
+      "category": "tradition",
+      "count": 5,
+      "kind": "tradition"
+    },
+    {
+      "category": "trait",
+      "count": 922,
+      "kind": "trait"
+    },
+    {
+      "category": "vehicle",
+      "count": 140,
+      "kind": "vehicle"
+    },
+    {
+      "category": "warfare-army",
+      "count": 11,
+      "kind": "warfare-army"
+    },
+    {
+      "category": "warfare-tactic",
+      "count": 21,
+      "kind": "warfare-tactic"
+    },
+    {
+      "category": "way",
+      "count": 11,
+      "kind": "way"
+    },
+    {
+      "category": "weapon",
+      "count": 613,
+      "kind": "weapon"
+    },
+    {
+      "category": "weapon-group",
+      "count": 17,
+      "kind": "weapon-group"
+    },
+    {
+      "category": "weather-hazard",
+      "count": 12,
+      "kind": "weather-hazard"
+    }
+  ],
+  "kinds": [
+    {
+      "count": 4246,
+      "kind": "action"
+    },
+    {
+      "count": 97,
+      "kind": "ancestry"
+    },
+    {
+      "count": 120,
+      "kind": "animal-companion"
+    },
+    {
+      "count": 8,
+      "kind": "animal-companion-advanced"
+    },
+    {
+      "count": 17,
+      "kind": "animal-companion-specialization"
+    },
+    {
+      "count": 2,
+      "kind": "animal-companion-unique"
+    },
+    {
+      "count": 14,
+      "kind": "apparition"
+    },
+    {
+      "count": 29,
+      "kind": "arcane-school"
+    },
+    {
+      "count": 10,
+      "kind": "arcane-thesis"
+    },
+    {
+      "count": 351,
+      "kind": "archetype"
+    },
+    {
+      "count": 75,
+      "kind": "armor"
+    },
+    {
+      "count": 7,
+      "kind": "armor-group"
+    },
+    {
+      "count": 107,
+      "kind": "article"
+    },
+    {
+      "count": 656,
+      "kind": "background"
+    },
+    {
+      "count": 28,
+      "kind": "bloodline"
+    },
+    {
+      "count": 27,
+      "kind": "campsite-meal"
+    },
+    {
+      "count": 287,
+      "kind": "category-page"
+    },
+    {
+      "count": 13,
+      "kind": "cause"
+    },
+    {
+      "count": 51,
+      "kind": "class"
+    },
+    {
+      "count": 1366,
+      "kind": "class-feature"
+    },
+    {
+      "count": 32,
+      "kind": "class-kit"
+    },
+    {
+      "count": 116,
+      "kind": "class-sample"
+    },
+    {
+      "count": 98,
+      "kind": "condition"
+    },
+    {
+      "count": 12,
+      "kind": "conscious-mind"
+    },
+    {
+      "count": 4942,
+      "kind": "creature"
+    },
+    {
+      "count": 85,
+      "kind": "creature-ability"
+    },
+    {
+      "count": 60,
+      "kind": "creature-adjustment"
+    },
+    {
+      "count": 649,
+      "kind": "creature-family"
+    },
+    {
+      "count": 16,
+      "kind": "creature-theme-template"
+    },
+    {
+      "count": 5,
+      "kind": "cult-activity"
+    },
+    {
+      "count": 92,
+      "kind": "curse"
+    },
+    {
+      "count": 722,
+      "kind": "deity"
+    },
+    {
+      "count": 40,
+      "kind": "deity-category"
+    },
+    {
+      "count": 10,
+      "kind": "deviant-ability-classification"
+    },
+    {
+      "count": 44,
+      "kind": "disease"
+    },
+    {
+      "count": 5,
+      "kind": "doctrine"
+    },
+    {
+      "count": 124,
+      "kind": "domain"
+    },
+    {
+      "count": 44,
+      "kind": "draconic-exemplar"
+    },
+    {
+      "count": 13,
+      "kind": "druidic-order"
+    },
+    {
+      "count": 26,
+      "kind": "eidolon"
+    },
+    {
+      "count": 6,
+      "kind": "element"
+    },
+    {
+      "count": 18,
+      "kind": "epithet"
+    },
+    {
+      "count": 9144,
+      "kind": "equipment"
+    },
+    {
+      "count": 191,
+      "kind": "familiar-ability"
+    },
+    {
+      "count": 47,
+      "kind": "familiar-specific"
+    },
+    {
+      "count": 2,
+      "kind": "fatal-method"
+    },
+    {
+      "count": 8947,
+      "kind": "feat"
+    },
+    {
+      "count": 6,
+      "kind": "follower"
+    },
+    {
+      "count": 4,
+      "kind": "grim-fascination"
+    },
+    {
+      "count": 758,
+      "kind": "hazard"
+    },
+    {
+      "count": 16,
+      "kind": "hellknight-order"
+    },
+    {
+      "count": 454,
+      "kind": "heritage"
+    },
+    {
+      "count": 7,
+      "kind": "hunters-edge"
+    },
+    {
+      "count": 15,
+      "kind": "hybrid-study"
+    },
+    {
+      "count": 21,
+      "kind": "ikon"
+    },
+    {
+      "count": 20,
+      "kind": "implement"
+    },
+    {
+      "count": 7,
+      "kind": "innovation"
+    },
+    {
+      "count": 16,
+      "kind": "instinct"
+    },
+    {
+      "count": 1373,
+      "kind": "item-bonus"
+    },
+    {
+      "count": 45,
+      "kind": "kingdom-event"
+    },
+    {
+      "count": 76,
+      "kind": "kingdom-structure"
+    },
+    {
+      "count": 155,
+      "kind": "language"
+    },
+    {
+      "count": 31,
+      "kind": "lesson"
+    },
+    {
+      "count": 9,
+      "kind": "methodology"
+    },
+    {
+      "count": 9,
+      "kind": "muse"
+    },
+    {
+      "count": 22,
+      "kind": "mystery"
+    },
+    {
+      "count": 15,
+      "kind": "mythic-calling"
+    },
+    {
+      "count": 27,
+      "kind": "patron"
+    },
+    {
+      "count": 47,
+      "kind": "plane"
+    },
+    {
+      "count": 4,
+      "kind": "practice"
+    },
+    {
+      "count": 10,
+      "kind": "racket"
+    },
+    {
+      "count": 219,
+      "kind": "relic"
+    },
+    {
+      "count": 8,
+      "kind": "research-field"
+    },
+    {
+      "count": 232,
+      "kind": "ritual"
+    },
+    {
+      "count": 3659,
+      "kind": "rules"
+    },
+    {
+      "count": 44,
+      "kind": "runesmith-rune"
+    },
+    {
+      "count": 14,
+      "kind": "set-relic"
+    },
+    {
+      "count": 32,
+      "kind": "shield"
+    },
+    {
+      "count": 719,
+      "kind": "sidebar"
+    },
+    {
+      "count": 84,
+      "kind": "siege-weapon"
+    },
+    {
+      "count": 50,
+      "kind": "skill"
+    },
+    {
+      "count": 25,
+      "kind": "skill-general-action"
+    },
+    {
+      "count": 330,
+      "kind": "source"
+    },
+    {
+      "count": 2786,
+      "kind": "spell"
+    },
+    {
+      "count": 11,
+      "kind": "style"
+    },
+    {
+      "count": 8,
+      "kind": "subconscious-mind"
+    },
+    {
+      "count": 37,
+      "kind": "tactic"
+    },
+    {
+      "count": 2,
+      "kind": "tenet"
+    },
+    {
+      "count": 5,
+      "kind": "tradition"
+    },
+    {
+      "count": 922,
+      "kind": "trait"
+    },
+    {
+      "count": 140,
+      "kind": "vehicle"
+    },
+    {
+      "count": 11,
+      "kind": "warfare-army"
+    },
+    {
+      "count": 21,
+      "kind": "warfare-tactic"
+    },
+    {
+      "count": 11,
+      "kind": "way"
+    },
+    {
+      "count": 613,
+      "kind": "weapon"
+    },
+    {
+      "count": 17,
+      "kind": "weapon-group"
+    },
+    {
+      "count": 12,
+      "kind": "weather-hazard"
+    }
+  ],
+  "total_entries": 46160
+}

@@ -1,0 +1,824 @@
+{
+  "category_count": 97,
+  "entry_count": 46160,
+  "fetched_at": "2026-10-07T22:40:59+00:00",
+  "files": [
+    {
+      "bytes": 620,
+      "path": "README.md",
+      "sha256": "90e556946429225a44119726a6b3c42a209250732daec2347da83c49ac908fa1"
+    },
+    {
+      "bytes": 3999039,
+      "path": "definitions/action/0000.jsonl",
+      "sha256": "c4c6c40ac63e3b55ce2287225b5839d46c3f852ff38dea9ed01c53228facd9b3"
+    },
+    {
+      "bytes": 3999781,
+      "path": "definitions/action/0001.jsonl",
+      "sha256": "cfd6559f97a0b8fe8c71daaf8457272e43f430614df16225e61838f5dab34c65"
+    },
+    {
+      "bytes": 3997946,
+      "path": "definitions/action/0002.jsonl",
+      "sha256": "f0e123887a0fe9a559bf420b760bc2d5aa0630e77c53792f00343f60cf46a63e"
+    },
+    {
+      "bytes": 2170604,
+      "path": "definitions/action/0003.jsonl",
+      "sha256": "1edee686ed9b8c8fddf1d54949bbb0121db9e48e42f0ca7ef4692d81c9141635"
+    },
+    {
+      "bytes": 1769672,
+      "path": "definitions/ancestry/0000.jsonl",
+      "sha256": "80e5183b542b8df6f6acac37434924e4a7551201a7a2969bb7e46f70b6c42d38"
+    },
+    {
+      "bytes": 693284,
+      "path": "definitions/animal-companion/0000.jsonl",
+      "sha256": "d709cff5175439b7d2fb8c2c5a2cfbaaa02980da3528e63e2829100152673db1"
+    },
+    {
+      "bytes": 30718,
+      "path": "definitions/animal-companion-advanced/0000.jsonl",
+      "sha256": "b7479a322156be9f06b3f76b93a8fdfb2a9deae25a418ed7f7fc567737f699e8"
+    },
+    {
+      "bytes": 58646,
+      "path": "definitions/animal-companion-specialization/0000.jsonl",
+      "sha256": "7e7ac7b50592cc0d173938fd82fa0b18ed706d5fd518a8db974794bd0fe26869"
+    },
+    {
+      "bytes": 7382,
+      "path": "definitions/animal-companion-unique/0000.jsonl",
+      "sha256": "07b16d00628b1bd1fe7ec996798672ababd8b9bf493067f5198e985e5a13293f"
+    },
+    {
+      "bytes": 79828,
+      "path": "definitions/apparition/0000.jsonl",
+      "sha256": "09110c4813c4a7593dca11a54f5b26285a4d578e04db7930fecc19c078e2e6ff"
+    },
+    {
+      "bytes": 150140,
+      "path": "definitions/arcane-school/0000.jsonl",
+      "sha256": "ef485b04788ef6006153c73dc5855e8c56919ba7af7bf0731fde7bf78ba9a8a7"
+    },
+    {
+      "bytes": 42002,
+      "path": "definitions/arcane-thesis/0000.jsonl",
+      "sha256": "d22055e0c27c778629fc395857d4d4053ae999eb9e3b86d2869f4ca71b7a5772"
+    },
+    {
+      "bytes": 3997275,
+      "path": "definitions/archetype/0000.jsonl",
+      "sha256": "30857a4c6a569e184366bfbae3c0459c59d2b7ea32dcd7e3704c3ad11a8c3830"
+    },
+    {
+      "bytes": 879540,
+      "path": "definitions/archetype/0001.jsonl",
+      "sha256": "33eb5f355f1bf69a4d6121b909611ddbc399fb223a9a6fc4b3a8e3a6bb71882d"
+    },
+    {
+      "bytes": 427420,
+      "path": "definitions/armor/0000.jsonl",
+      "sha256": "46e1f3d7a47c7b7b700549c878ccd40a61899c44336c3b5616b0ce02a6f8d8e8"
+    },
+    {
+      "bytes": 21292,
+      "path": "definitions/armor-group/0000.jsonl",
+      "sha256": "e110c82bfa36fd1074f01f68cf2166291377a4d1e178f494437586a48977fdf8"
+    },
+    {
+      "bytes": 300398,
+      "path": "definitions/article/0000.jsonl",
+      "sha256": "40bd37c853e2b14f3b7665736875b1e76034333ab2981a549452d9a17cd03187"
+    },
+    {
+      "bytes": 3162753,
+      "path": "definitions/background/0000.jsonl",
+      "sha256": "38dfb1fff21e1ef8432f96d205a7308f4defc3792b91f58fa38abec123208cb8"
+    },
+    {
+      "bytes": 170945,
+      "path": "definitions/bloodline/0000.jsonl",
+      "sha256": "d0af576e442062d6b7ed9dec2f81765d34bf3c9d564956adff56480cb5e131cb"
+    },
+    {
+      "bytes": 134816,
+      "path": "definitions/campsite-meal/0000.jsonl",
+      "sha256": "77fa684ba26513cb574bdf1c89d3455a84250f8afa8de11d7855a63d0d8697e8"
+    },
+    {
+      "bytes": 1045505,
+      "path": "definitions/category-page/0000.jsonl",
+      "sha256": "a6fdc21557d0440f5edec2ad3315d6f2093183e9aba0a5b26c5da506bb68a0f4"
+    },
+    {
+      "bytes": 66542,
+      "path": "definitions/cause/0000.jsonl",
+      "sha256": "5efa723f49eded7ea8a063ef7f13fdce3c8ce2b73991b7e548cf70e67be83178"
+    },
+    {
+      "bytes": 2069781,
+      "path": "definitions/class/0000.jsonl",
+      "sha256": "02416b3ace30309edf0f12ca83964ce5e2b3a1e5483d9efcbfe1b2d1dc91c3a7"
+    },
+    {
+      "bytes": 3999836,
+      "path": "definitions/class-feature/0000.jsonl",
+      "sha256": "a9d897da00aae50b194552ae59b1a2efeeae5b0874049607fcecf2c7bfd94606"
+    },
+    {
+      "bytes": 491905,
+      "path": "definitions/class-feature/0001.jsonl",
+      "sha256": "f4e265ee4ac6c78df220e9ec403bb07153d6adca88534e31187d0f347232d869"
+    },
+    {
+      "bytes": 131099,
+      "path": "definitions/class-kit/0000.jsonl",
+      "sha256": "5146057054db1dfd9b9ff033cedba199ecec11388613485197bb66565bba541a"
+    },
+    {
+      "bytes": 400066,
+      "path": "definitions/class-sample/0000.jsonl",
+      "sha256": "a475c2d482647ce65cc9ce4e74ff382af60d06ed5ef4ccfba4f6e13ea47e9405"
+    },
+    {
+      "bytes": 348923,
+      "path": "definitions/condition/0000.jsonl",
+      "sha256": "7b62745130af98db0d0f5cd60bee7788e4e04ce2523586847e1be220583923bc"
+    },
+    {
+      "bytes": 111400,
+      "path": "definitions/conscious-mind/0000.jsonl",
+      "sha256": "b608fe0715142da133247bf634ba06c776826936030c4dc75ad02d4d46130158"
+    },
+    {
+      "bytes": 3990550,
+      "path": "definitions/creature/0000.jsonl",
+      "sha256": "841db5d322e17511798207855caac089260442c1c2b6d3d265b88f33ee23263b"
+    },
+    {
+      "bytes": 3986511,
+      "path": "definitions/creature/0001.jsonl",
+      "sha256": "2bbd9d5ae0e655be9af75f71dfb653767cd288dce085b6beceb291c05952ad36"
+    },
+    {
+      "bytes": 3989073,
+      "path": "definitions/creature/0002.jsonl",
+      "sha256": "5daeef306b015b9a18ad84754e737c2f3f85ac27186b940eb93b18a11b987ac7"
+    },
+    {
+      "bytes": 3988460,
+      "path": "definitions/creature/0003.jsonl",
+      "sha256": "a48f32d76e67b19c178b194a6d3ec54c8e96ca7833744850cd82b460697a0992"
+    },
+    {
+      "bytes": 3980551,
+      "path": "definitions/creature/0004.jsonl",
+      "sha256": "e79acf8747ef85ffb39aed6ba240dee083b4fc373fef2df9259568312461bd47"
+    },
+    {
+      "bytes": 3986538,
+      "path": "definitions/creature/0005.jsonl",
+      "sha256": "0f03ad9e8a06d758e0298a6bc7c1bbbbb1ce7729a33b9db2cb9728956dc60b7a"
+    },
+    {
+      "bytes": 3994274,
+      "path": "definitions/creature/0006.jsonl",
+      "sha256": "1ea503dadb7f7661e5d9d7d6c0a97602238e84c0ee525d5b3d5c03a51ca87719"
+    },
+    {
+      "bytes": 3996900,
+      "path": "definitions/creature/0007.jsonl",
+      "sha256": "2af3068154b536e7ba657e213b1cdd3e6cede6f6d6379208eefceaf5ddc0cba5"
+    },
+    {
+      "bytes": 3998419,
+      "path": "definitions/creature/0008.jsonl",
+      "sha256": "d866ce419d6e1f868c01f9388342a787567d9e20fa46a27159f02682c6ee1027"
+    },
+    {
+      "bytes": 3999202,
+      "path": "definitions/creature/0009.jsonl",
+      "sha256": "5e2b4f6ea3100782edb36a533effa9bf4dc754188f4f31dc894d5eb374e99d1f"
+    },
+    {
+      "bytes": 3995414,
+      "path": "definitions/creature/0010.jsonl",
+      "sha256": "99d948dc1af233a4fa8381ea6c14ba9b80c17ecfd25d014027b4166f622d9166"
+    },
+    {
+      "bytes": 3999195,
+      "path": "definitions/creature/0011.jsonl",
+      "sha256": "4abe804207a0a7999ce00d7cb3f2ff0e1d4fe1b7878a8d266b626e70858333fe"
+    },
+    {
+      "bytes": 3995238,
+      "path": "definitions/creature/0012.jsonl",
+      "sha256": "145f5ff9af6e2a10f5fa4aecc301928ed8f6360f5ecdf7838c386e801c2b228f"
+    },
+    {
+      "bytes": 3986564,
+      "path": "definitions/creature/0013.jsonl",
+      "sha256": "6d35b67b3bbf4aece5a692dbc1363f607e25a7a9908ab709dd00bc526e03be20"
+    },
+    {
+      "bytes": 3995531,
+      "path": "definitions/creature/0014.jsonl",
+      "sha256": "a17033826ebdf97a89dfa8f30f7ae4a9c7b743a9902d4855c67d628ab97722fb"
+    },
+    {
+      "bytes": 3999498,
+      "path": "definitions/creature/0015.jsonl",
+      "sha256": "9376d62ec7d409ff871fa80238ce0023dd9f015918b1e58a9fe95eb1fadb05d6"
+    },
+    {
+      "bytes": 3989305,
+      "path": "definitions/creature/0016.jsonl",
+      "sha256": "fda7ec02f91104835acb63beaa8b0052bf7a18c34fef5a1f6e06e682dd5552a7"
+    },
+    {
+      "bytes": 3658265,
+      "path": "definitions/creature/0017.jsonl",
+      "sha256": "d16034c131080c2dc6ae3cb3412aaa84b0daf2b9c5323a394704f21088b3f612"
+    },
+    {
+      "bytes": 301351,
+      "path": "definitions/creature-ability/0000.jsonl",
+      "sha256": "d0eb29aa43aee7e69f3e46a30fc9ac67731322c18b2e78e0a97d97abb090156e"
+    },
+    {
+      "bytes": 326969,
+      "path": "definitions/creature-adjustment/0000.jsonl",
+      "sha256": "a397a2dc660cf01c121f65d1b4572e899dfb0810ee7daa5f6dd93e99ed633b2e"
+    },
+    {
+      "bytes": 3995639,
+      "path": "definitions/creature-family/0000.jsonl",
+      "sha256": "87c564d63858e408c2c452a2ed3fd6c47c9fb376761506d325eacc4fe33fb7b2"
+    },
+    {
+      "bytes": 1214393,
+      "path": "definitions/creature-family/0001.jsonl",
+      "sha256": "35dab5f91fe60d38bfe51b1a493dfe22d76f47039ec8bcf7a96771e301f96e92"
+    },
+    {
+      "bytes": 67330,
+      "path": "definitions/creature-theme-template/0000.jsonl",
+      "sha256": "569bbd9221909e25160c381fa8bd382114452ae0b55473b8b667f958aea30bfb"
+    },
+    {
+      "bytes": 26239,
+      "path": "definitions/cult-activity/0000.jsonl",
+      "sha256": "61edd197de015c8455c6936ba3eaa20036940f727b3c9e14a4958ae65a9a28c0"
+    },
+    {
+      "bytes": 407308,
+      "path": "definitions/curse/0000.jsonl",
+      "sha256": "30fdc84205ca949e85816aee49d59151532a3eb189217f3ab501e043fa4edb2e"
+    },
+    {
+      "bytes": 3997114,
+      "path": "definitions/deity/0000.jsonl",
+      "sha256": "d236d35f3b0137473e6cca07f8d10e8776fc5ab1ac7e1a494924b0195f26e427"
+    },
+    {
+      "bytes": 2418173,
+      "path": "definitions/deity/0001.jsonl",
+      "sha256": "2a224ef33e5bac1c44f3102be5ec9f39f2541db9225103529d1ccfcc71d52bd4"
+    },
+    {
+      "bytes": 193426,
+      "path": "definitions/deity-category/0000.jsonl",
+      "sha256": "bcde362fd97c3c0331d7c70e4e42fc36c7534e85d9118adc3f3b8e9759ef3936"
+    },
+    {
+      "bytes": 75344,
+      "path": "definitions/deviant-ability-classification/0000.jsonl",
+      "sha256": "66f81e13670a1ac046ed7034dc9654f5d2a90937aa7dee400667720c2afa1a0d"
+    },
+    {
+      "bytes": 200925,
+      "path": "definitions/disease/0000.jsonl",
+      "sha256": "69c1846cc5116e2887b4669848b6948e00b83f06cbb6df1227e67b177cf2ba93"
+    },
+    {
+      "bytes": 29587,
+      "path": "definitions/doctrine/0000.jsonl",
+      "sha256": "2a8a90073e5fdcd5de9faf795e899da04049c5fe5e411ab93244b11acdc708ab"
+    },
+    {
+      "bytes": 991487,
+      "path": "definitions/domain/0000.jsonl",
+      "sha256": "9279d8c159473161875ec3e80e604b4ea72ea68fb6a26c71ae788b06250216d0"
+    },
+    {
+      "bytes": 124241,
+      "path": "definitions/draconic-exemplar/0000.jsonl",
+      "sha256": "a7daec74fe189f964e4ef9e97501f3bb24b769cc5ebcc9d39911b16812fc19a6"
+    },
+    {
+      "bytes": 44574,
+      "path": "definitions/druidic-order/0000.jsonl",
+      "sha256": "55e92a1ea53a583e4274b08a1562a5a75715b122004c2529cdbdd6513a2481b0"
+    },
+    {
+      "bytes": 249173,
+      "path": "definitions/eidolon/0000.jsonl",
+      "sha256": "68ebb976841fa231d43bc4dec51d0be474cb2eaa321f400ed6cd1786539dfd19"
+    },
+    {
+      "bytes": 24040,
+      "path": "definitions/element/0000.jsonl",
+      "sha256": "00d2fbb3e574138599d22fe688cfeb4f1bac7d18a188d5685dcf48eeba829ac7"
+    },
+    {
+      "bytes": 67965,
+      "path": "definitions/epithet/0000.jsonl",
+      "sha256": "8d2df4d6c03906c31290c698dd06c4f449f40c9907e8045b727778217a1c6837"
+    },
+    {
+      "bytes": 3995774,
+      "path": "definitions/equipment/0000.jsonl",
+      "sha256": "3fe7aa64e64e2b6cef528b5695e5fe39e1916a895627553fd92c978790a46e4a"
+    },
+    {
+      "bytes": 3994487,
+      "path": "definitions/equipment/0001.jsonl",
+      "sha256": "1611aff29bb8f2af49c86fd4c827ed63b3195b440ea2432c555934337519adc2"
+    },
+    {
+      "bytes": 3996976,
+      "path": "definitions/equipment/0002.jsonl",
+      "sha256": "290f1e5416b13c4adb67150ba398f9534fb9b5d8404e9aa2c7e672d3d12eb1f0"
+    },
+    {
+      "bytes": 3998797,
+      "path": "definitions/equipment/0003.jsonl",
+      "sha256": "3432d7bfc7b71f350a69cdc1a8420ceef5b9434dc753bcbccdbd983e4b078a8a"
+    },
+    {
+      "bytes": 3998583,
+      "path": "definitions/equipment/0004.jsonl",
+      "sha256": "4bfeda6425759d60e63a9ca16c47b69f859866ff9d848cfc422acddf122ec64d"
+    },
+    {
+      "bytes": 3999237,
+      "path": "definitions/equipment/0005.jsonl",
+      "sha256": "ff4d52d1b67d719aceaf123a9f0af32e5853b4113f4bff4fc8ef9666caa2dec5"
+    },
+    {
+      "bytes": 3994095,
+      "path": "definitions/equipment/0006.jsonl",
+      "sha256": "7722d22a681960dbb9fc1dc657ec873a4a6e5717ca720bb782595886d5a59371"
+    },
+    {
+      "bytes": 3993786,
+      "path": "definitions/equipment/0007.jsonl",
+      "sha256": "0f828eb7a793beea51a7492cbcdbee4bd47332266055a5ae58633e277c70eb41"
+    },
+    {
+      "bytes": 3994528,
+      "path": "definitions/equipment/0008.jsonl",
+      "sha256": "db2d0b52d59de5eec069fc5ebda236fd1771bba9c96ef843c1f02e569cc2ad23"
+    },
+    {
+      "bytes": 3996286,
+      "path": "definitions/equipment/0009.jsonl",
+      "sha256": "d81030789d0d0b0cb7aa14116d03c886f11f12594440b126ed7a84b1c195f722"
+    },
+    {
+      "bytes": 3998644,
+      "path": "definitions/equipment/0010.jsonl",
+      "sha256": "1e352d0d50ed95653e309581e6fa1203509d624b0132acb6a8f359cd88132450"
+    },
+    {
+      "bytes": 3993303,
+      "path": "definitions/equipment/0011.jsonl",
+      "sha256": "9d8657f038389b3f3a5ba81a0bb3ccfd7f093550da7e29af5866bdef1e7f1293"
+    },
+    {
+      "bytes": 3998462,
+      "path": "definitions/equipment/0012.jsonl",
+      "sha256": "23c7ba4cb2d3675e88b7f4115202f034268e4e9761843a15b64697f115cda81e"
+    },
+    {
+      "bytes": 3998517,
+      "path": "definitions/equipment/0013.jsonl",
+      "sha256": "772d7b5a07d1bf90ac0817795e60da14c26582221a54e6d5545cfe0a91b7523c"
+    },
+    {
+      "bytes": 3999013,
+      "path": "definitions/equipment/0014.jsonl",
+      "sha256": "80d5f88df5e3b95c19e6de6ebfd415b35439fb42b0a1d71fd0e25d6846524f9b"
+    },
+    {
+      "bytes": 3048990,
+      "path": "definitions/equipment/0015.jsonl",
+      "sha256": "cffd5e86d472d74389e5eb7e3ba8a81823d98cd3f2e0bb27cf6aab6d037bec3d"
+    },
+    {
+      "bytes": 641411,
+      "path": "definitions/familiar-ability/0000.jsonl",
+      "sha256": "59a7c775b482510c73e029da199baee492bb31e3626ae3aacb7c02e0e1a5d71f"
+    },
+    {
+      "bytes": 275678,
+      "path": "definitions/familiar-specific/0000.jsonl",
+      "sha256": "52514f8623ee102713beea41b404bc9370ce23ff89cc0e76622036364f303a42"
+    },
+    {
+      "bytes": 6957,
+      "path": "definitions/fatal-method/0000.jsonl",
+      "sha256": "30d70aa37689f3872408e410cdc59129a9ab210305cf809394675a5c294a5f7d"
+    },
+    {
+      "bytes": 3996173,
+      "path": "definitions/feat/0000.jsonl",
+      "sha256": "0bd7117ff2804e22a5223fd05072f0307a4d83ea53f7249ba8ff4598185e77c1"
+    },
+    {
+      "bytes": 3996934,
+      "path": "definitions/feat/0001.jsonl",
+      "sha256": "af7b237a442db1a3a1cb4284760b85ccd41b90c0f8b6f63f3560053170d37e5c"
+    },
+    {
+      "bytes": 3999776,
+      "path": "definitions/feat/0002.jsonl",
+      "sha256": "bf12aca3877405962c47cc8ec01e1e98e51f7eec7a171fbb6d58cc2821763833"
+    },
+    {
+      "bytes": 3999329,
+      "path": "definitions/feat/0003.jsonl",
+      "sha256": "e72c1fbf42efa01d8d078df9fb408a2e6bfb86afc612b8cd18f6e0e980b0e0a9"
+    },
+    {
+      "bytes": 3997626,
+      "path": "definitions/feat/0004.jsonl",
+      "sha256": "c5f066ce84989a574568b3a10178e5c457feff53b4745962702f7eb166d36e81"
+    },
+    {
+      "bytes": 3997541,
+      "path": "definitions/feat/0005.jsonl",
+      "sha256": "4976196372d0238eb1e65c74441646f62db6a6a1e51af2f949fe297043f3a8c6"
+    },
+    {
+      "bytes": 3999932,
+      "path": "definitions/feat/0006.jsonl",
+      "sha256": "bd136a4d6dfed5623420e56e886e67b4ffa43d99940b062d1b72556a3dbc4559"
+    },
+    {
+      "bytes": 3994637,
+      "path": "definitions/feat/0007.jsonl",
+      "sha256": "e6a269fcc8dcce0b0e3d0e8e102b41a0022cc2ddc95ff0a8c427ed992354b23e"
+    },
+    {
+      "bytes": 3998977,
+      "path": "definitions/feat/0008.jsonl",
+      "sha256": "30835898a1c57c381d6782c1a454dddf08443e77058b92cb1c5bc70168e28dd0"
+    },
+    {
+      "bytes": 1701203,
+      "path": "definitions/feat/0009.jsonl",
+      "sha256": "03d82d4dccf137f7db2aeee19a05b9c31091166c17258cad20109197e9bff64b"
+    },
+    {
+      "bytes": 61174,
+      "path": "definitions/follower/0000.jsonl",
+      "sha256": "9888b87e9500b132958ee2498949f438eac621904aa20fbacf75dfcc323050b2"
+    },
+    {
+      "bytes": 13870,
+      "path": "definitions/grim-fascination/0000.jsonl",
+      "sha256": "22bf90f9952741981b3ba1c4d10bc978df3539e0024b4c3afc1cfed99ffded49"
+    },
+    {
+      "bytes": 3994447,
+      "path": "definitions/hazard/0000.jsonl",
+      "sha256": "b2b2c56b19e5e04b6b26badc917e999b8a8a41a8f30d92e4a65e60a8f3c8e840"
+    },
+    {
+      "bytes": 836068,
+      "path": "definitions/hazard/0001.jsonl",
+      "sha256": "a4fd0722c60f20ccd2e6e8ce39ee7492488f43beddad00d622f067151c897f1a"
+    },
+    {
+      "bytes": 87123,
+      "path": "definitions/hellknight-order/0000.jsonl",
+      "sha256": "26c834acb8f3b13270c44b0cecbb8029c1ce2fe1b07933147fceca70228b2f39"
+    },
+    {
+      "bytes": 1546543,
+      "path": "definitions/heritage/0000.jsonl",
+      "sha256": "3a9021c28eb81ba064f922f73bcec707bd19cab23559f884ffa25b9b25ddea0b"
+    },
+    {
+      "bytes": 28130,
+      "path": "definitions/hunters-edge/0000.jsonl",
+      "sha256": "d62d632977802db76d302a2e0858dccb2ef5124679522396d3bf2b90c73bb422"
+    },
+    {
+      "bytes": 72557,
+      "path": "definitions/hybrid-study/0000.jsonl",
+      "sha256": "2d18184d470ed987982c1d4607b6496503a4b89ba0aee43a15afd3c27363c40f"
+    },
+    {
+      "bytes": 95838,
+      "path": "definitions/ikon/0000.jsonl",
+      "sha256": "0d8a79e4886b66648b185f45de9cd9664206e248bf39eba03fa89de7e4525705"
+    },
+    {
+      "bytes": 160154,
+      "path": "definitions/implement/0000.jsonl",
+      "sha256": "6d6dfd79cb5ff3756358151da9733a1c2869857df32a24827f4031b5c1964aa8"
+    },
+    {
+      "bytes": 137220,
+      "path": "definitions/innovation/0000.jsonl",
+      "sha256": "59559b0242ded170c851d6d10adce7e714cd9d4ced978e77eb40a5b7e0f97052"
+    },
+    {
+      "bytes": 105269,
+      "path": "definitions/instinct/0000.jsonl",
+      "sha256": "4b2c3bcf16ecacea4860223537767f01e6fd3a4425a69c5e90b45e8f3ccc578d"
+    },
+    {
+      "bytes": 3997712,
+      "path": "definitions/item-bonus/0000.jsonl",
+      "sha256": "074878a22077ce15bc399b56749a9235507a4d0be45352e86306f64c9ad944ed"
+    },
+    {
+      "bytes": 3995474,
+      "path": "definitions/item-bonus/0001.jsonl",
+      "sha256": "8c3db6980a92bd7224c494253baf749bbb030394aad188f4d689194873372409"
+    },
+    {
+      "bytes": 1779589,
+      "path": "definitions/item-bonus/0002.jsonl",
+      "sha256": "d2529e060077c79e4f80d7a2a5f8a3b0177aa2c45cde37c7d3b025b049afdb7c"
+    },
+    {
+      "bytes": 260707,
+      "path": "definitions/kingdom-event/0000.jsonl",
+      "sha256": "2a8102e477686bb89b0b56d903247143cea5bfcf96f2cb697aaf185f83813768"
+    },
+    {
+      "bytes": 313101,
+      "path": "definitions/kingdom-structure/0000.jsonl",
+      "sha256": "1042fabd9f28c5db4f8466a86339b6d663e8ab1483353553cfe40592871ca314"
+    },
+    {
+      "bytes": 329686,
+      "path": "definitions/language/0000.jsonl",
+      "sha256": "fbf6b7228841b989f97228980fe4b8c96285c9f06ff8f4529a8840542b653192"
+    },
+    {
+      "bytes": 76397,
+      "path": "definitions/lesson/0000.jsonl",
+      "sha256": "cf945e7860a6140b7b523f5385fbe975acacd0cea2b6cd7471355f2bbabdd70a"
+    },
+    {
+      "bytes": 39560,
+      "path": "definitions/methodology/0000.jsonl",
+      "sha256": "0b6141efb530c87cabbe53d36dfd02d5469e815fba934cddd3b3979366902ee8"
+    },
+    {
+      "bytes": 31872,
+      "path": "definitions/muse/0000.jsonl",
+      "sha256": "81d786bbbf6fd9b79a7dc1fc84eeb58e61a988fb89162b9f6b0c3b7395073e52"
+    },
+    {
+      "bytes": 179646,
+      "path": "definitions/mystery/0000.jsonl",
+      "sha256": "cebceeb61a6ec00391e09c0f1404b71713ca819aad85dcb1cd5e8b446f67d35f"
+    },
+    {
+      "bytes": 78678,
+      "path": "definitions/mythic-calling/0000.jsonl",
+      "sha256": "5dea5f538a1874ca83eaad4f11b95064302d9893e2e282ee429ffab5e2309a4e"
+    },
+    {
+      "bytes": 123728,
+      "path": "definitions/patron/0000.jsonl",
+      "sha256": "7eb88c5f002667633cf7d501220f8b882a59a08912f89af05224ab14372cbb01"
+    },
+    {
+      "bytes": 287482,
+      "path": "definitions/plane/0000.jsonl",
+      "sha256": "e15a0ad3264e5d4d0ba7b8ff1774f97155cae1dff31f29eb95f59ceccc2d34df"
+    },
+    {
+      "bytes": 20299,
+      "path": "definitions/practice/0000.jsonl",
+      "sha256": "d170138c2137eaa86cefcbab27abd7658692ef9896eea7b810de9ac421feb2c8"
+    },
+    {
+      "bytes": 44590,
+      "path": "definitions/racket/0000.jsonl",
+      "sha256": "45e00a0f7dfbbe96dc3084ebec76ac369d5e7dce0477ea4872ba346eea54f4a7"
+    },
+    {
+      "bytes": 811324,
+      "path": "definitions/relic/0000.jsonl",
+      "sha256": "bcb7a20674e885e1c50abbfa5b64a41f7a1dd420af49c8cac86e64c7a6be20c6"
+    },
+    {
+      "bytes": 51935,
+      "path": "definitions/research-field/0000.jsonl",
+      "sha256": "299204566e012783ce70845c350d52ceda55efe73e20570be1ac424d54f87a28"
+    },
+    {
+      "bytes": 1908669,
+      "path": "definitions/ritual/0000.jsonl",
+      "sha256": "d89986455994400187f438af862759fbe1b7107941a1de2e77798f5cab2578b4"
+    },
+    {
+      "bytes": 3996592,
+      "path": "definitions/rules/0000.jsonl",
+      "sha256": "f6f79b1814ddda8128344ef4eba39ecb4fbaed3ae032fb88ad86de321aae0a53"
+    },
+    {
+      "bytes": 3997947,
+      "path": "definitions/rules/0001.jsonl",
+      "sha256": "b5f9409b6699cffd5b9e7f136058d2296707fd60ee881bd46e93a1cff0cbfaf2"
+    },
+    {
+      "bytes": 3995263,
+      "path": "definitions/rules/0002.jsonl",
+      "sha256": "aaf244fe0de0b4a47d97f26c3d60c5587ceb051a218af73cb5b8314610b11e77"
+    },
+    {
+      "bytes": 3998797,
+      "path": "definitions/rules/0003.jsonl",
+      "sha256": "8e9c67c12c4f13e8cf726a6b2877cebea9c7d6be7f5f90b77f3950b398c91e94"
+    },
+    {
+      "bytes": 1991908,
+      "path": "definitions/rules/0004.jsonl",
+      "sha256": "af4309ff96df835770c52e12ea3b4d02337a228f010970a345dfd9282318421c"
+    },
+    {
+      "bytes": 211789,
+      "path": "definitions/runesmith-rune/0000.jsonl",
+      "sha256": "125c6926d5081af1035980aa9df272ca90f01a62c6ea28967ae614a8408c2836"
+    },
+    {
+      "bytes": 91095,
+      "path": "definitions/set-relic/0000.jsonl",
+      "sha256": "80783e937ee9b57e0074f5f7f29e299ad5994106b6bbb9839ec9a6c4caa9c3b0"
+    },
+    {
+      "bytes": 130248,
+      "path": "definitions/shield/0000.jsonl",
+      "sha256": "1cf445ae74333b3cea61c6df7ffdd3e5a28bfce126efae4f92ac5e9937f7282f"
+    },
+    {
+      "bytes": 3283893,
+      "path": "definitions/sidebar/0000.jsonl",
+      "sha256": "622032fc60e993168d2a013d5307b3af8cb71563b60d04bc58f69052d10b59c5"
+    },
+    {
+      "bytes": 540628,
+      "path": "definitions/siege-weapon/0000.jsonl",
+      "sha256": "181834004c757f4b4ffad1e938dda36aee7c5d4dc3dbc7de5a34c5016bb226ae"
+    },
+    {
+      "bytes": 761346,
+      "path": "definitions/skill/0000.jsonl",
+      "sha256": "f346ed97a81329fa9dffedd24a263dea119e6182f36f0f11a2878b08db02bc23"
+    },
+    {
+      "bytes": 189085,
+      "path": "definitions/skill-general-action/0000.jsonl",
+      "sha256": "7f5639514d6f236653004d4809144da793369e933d679272b171dac96d85e1b1"
+    },
+    {
+      "bytes": 793231,
+      "path": "definitions/source/0000.jsonl",
+      "sha256": "c5afb57707b75bc4990bcd8aa413d40353aabf19125399570b3b72c8d3f338c7"
+    },
+    {
+      "bytes": 3996758,
+      "path": "definitions/spell/0000.jsonl",
+      "sha256": "db5dd29e95846cc1c0802842d682a2f092ce42a8bee9409813a0f1fc89cb1bb7"
+    },
+    {
+      "bytes": 3999491,
+      "path": "definitions/spell/0001.jsonl",
+      "sha256": "f3891e9d395a384110447afae41893a55cd43b6911d71e2cde796711f6081892"
+    },
+    {
+      "bytes": 3993992,
+      "path": "definitions/spell/0002.jsonl",
+      "sha256": "5c395aaec777c2183dc84bbbc11b21dc814e8a325bc93dcb252dc681382bfc97"
+    },
+    {
+      "bytes": 3995350,
+      "path": "definitions/spell/0003.jsonl",
+      "sha256": "e32c34b054de2d8924ac659f765813170982c663028b264f71f53eb4798d1684"
+    },
+    {
+      "bytes": 1037807,
+      "path": "definitions/spell/0004.jsonl",
+      "sha256": "b9c28440d6d8d9b0c637f1d8cfa134413837cb9292dd843500ece767af3fe71a"
+    },
+    {
+      "bytes": 35698,
+      "path": "definitions/style/0000.jsonl",
+      "sha256": "3b21100bf86eacc6bc88cb096a55c473f34c2fcc1583e5b7c00f32aed661af57"
+    },
+    {
+      "bytes": 41305,
+      "path": "definitions/subconscious-mind/0000.jsonl",
+      "sha256": "c386bf757238c9922ef6a098f78072a5ff512743391bcad3aa0f2f8972c2266c"
+    },
+    {
+      "bytes": 170517,
+      "path": "definitions/tactic/0000.jsonl",
+      "sha256": "0ddeed8a3ce0b8e5761a57c862ba3d98358e994d04e4db5b92ead5ccaf0460ba"
+    },
+    {
+      "bytes": 8124,
+      "path": "definitions/tenet/0000.jsonl",
+      "sha256": "edccbf8780b1f634a896a16ae21f1dcda9afd4ae1ed29e3994af256f61af90e4"
+    },
+    {
+      "bytes": 17338,
+      "path": "definitions/tradition/0000.jsonl",
+      "sha256": "7e74054de434b8faf825eab5b98a039a1cac81f9845999f62806e7bdc0fe055b"
+    },
+    {
+      "bytes": 2634636,
+      "path": "definitions/trait/0000.jsonl",
+      "sha256": "dd744883a51176d8dcb2d193cd9a8d9e5b50d72080d95c3c820a5ed01e9dd474"
+    },
+    {
+      "bytes": 842751,
+      "path": "definitions/vehicle/0000.jsonl",
+      "sha256": "4dd7b12cf3ca8771db327525e9aedc5f048fe43ba245bc0bb810e7053e66bc16"
+    },
+    {
+      "bytes": 53640,
+      "path": "definitions/warfare-army/0000.jsonl",
+      "sha256": "e6b9b5b96dfc19f6a7d1f3c036a527037ccfe22f4280fcf1af0500542df0616b"
+    },
+    {
+      "bytes": 78877,
+      "path": "definitions/warfare-tactic/0000.jsonl",
+      "sha256": "cd74e8ad95bbed793a95f861f9e46acdba705e43c3e36946e22a4578077e5a3b"
+    },
+    {
+      "bytes": 65650,
+      "path": "definitions/way/0000.jsonl",
+      "sha256": "25007fc12a696641591b0eb582f52ac82e3e3b033f5dd6651a98f3a3703e8ae0"
+    },
+    {
+      "bytes": 3996670,
+      "path": "definitions/weapon/0000.jsonl",
+      "sha256": "bce9f60536b9b45859ee14e5445cfe45deddc0480da574082f249bb61b69be12"
+    },
+    {
+      "bytes": 58346,
+      "path": "definitions/weapon/0001.jsonl",
+      "sha256": "91af5aace5c6f4c8ccfb96032d250f536f215f2f4b9e8e18f96e1e338eebc498"
+    },
+    {
+      "bytes": 43612,
+      "path": "definitions/weapon-group/0000.jsonl",
+      "sha256": "45b68cabd3ff537880460f0c27863ad787dccf79fb706544660b8b4361abf3d0"
+    },
+    {
+      "bytes": 61213,
+      "path": "definitions/weather-hazard/0000.jsonl",
+      "sha256": "3504c66eecab7ac9c158ba2237d427e0c725cc64cba6728a0c52a92a66cb40f7"
+    },
+    {
+      "bytes": 14804,
+      "path": "index/categories.json",
+      "sha256": "c20bc40e4d5a6481c0ab1149fcf49e7e2caa4b956245ad739397274329e0f54b"
+    },
+    {
+      "bytes": 17663870,
+      "path": "index/entries.jsonl",
+      "sha256": "fb9473058d247167acef113080c43cdf40cb642b2d795c6527109693f99ae305"
+    },
+    {
+      "bytes": 9568669,
+      "path": "index/remaster-map.json",
+      "sha256": "d3b6b10451a449ea07c663fdaffdfe350cc0bbfdce28fdf4de159f188b9cbae7"
+    }
+  ],
+  "kind_count": 97,
+  "legacy_count": 12016,
+  "pagination": "pit",
+  "remastered_count": 12559,
+  "ruleset": "pathfinder-2e",
+  "schema_version": 1,
+  "single_count": 21585,
+  "source_endpoint": "https://elasticsearch.aonprd.com",
+  "source_id": "archives-of-nethys",
+  "source_index": "aon",
+  "unresolved_legacy_links": 0,
+  "unresolved_remaster_links": 72
+}
