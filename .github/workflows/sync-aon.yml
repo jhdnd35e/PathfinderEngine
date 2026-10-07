@@ -1,5 +1,4 @@
 name: Sync Archives of Nethys
-# Bootstrap touch: workflow already exists before this push.
 
 on:
   workflow_dispatch:
@@ -49,13 +48,27 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
+          # data/source is wholly generated. Preserve this run's verified snapshot,
+          # move onto the newest main, then restore only the generated tree. This
+          # avoids add/add rebase conflicts when another commit lands during a sync.
+          snapshot="$(mktemp -d)"
+          cp -a data/source "$snapshot/source"
+
+          git fetch origin main
+          git reset --hard origin/main
+          rm -rf data/source
+          mkdir -p data
+          cp -a "$snapshot/source" data/source
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/source
+
           if git diff --cached --quiet; then
             echo "No generated data changes."
             exit 0
           fi
+
           git commit -m "data: refresh Archives of Nethys PF2e index"
-          git pull --rebase origin main
           git push origin HEAD:main
